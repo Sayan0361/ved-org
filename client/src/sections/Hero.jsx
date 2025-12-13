@@ -5,7 +5,7 @@ import ArrowDown from "../assets/HeroSection/ArrowDown.png";
 
 export default function Hero() {
   return (
-    <section className="w-full min-h-screen bg-white overflow-hidden">
+    <section className="w-full min-h-auto bg-white overflow-hidden">
       {/* Responsive padding */}
       <div className="px-6 md:px-8 lg:px-12 xl:px-16 pt-8 md:pt-12 lg:pt-16 pb-12 md:pb-16 lg:pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-start max-w-7xl mx-auto">
