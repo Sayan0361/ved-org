@@ -30,7 +30,7 @@ export default function Header() {
                                     </div>
                                 ))}
                                 <button
-                                    className="w-auto min-w-[100px] xl:min-w-[120px] h-[35px] xl:h-10 px-4 xl:px-5 flex items-center justify-center bg-black text-white font-semibold text-[14px] xl:text-[15px] cursor-pointer hover:bg-gray-800 transition-colors ml-1"
+                                    className="w-auto min-w-[100px] xl:min-w-[120px] h-[35px] xl:h-10 px-4 xl:px-5 rounded-md flex items-center justify-center bg-black text-white font-semibold text-[14px] xl:text-[15px] cursor-pointer hover:bg-gray-800 transition-colors ml-1"
                                     style={{ fontFamily: "Montserrat, system-ui, -apple-system, 'Segoe UI', Roboto" }}
                                 >
                                     Contact Us

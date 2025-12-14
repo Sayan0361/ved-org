@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './sections/Hero';
 import Services from './sections/Services';
+import VisonGlow from './sections/VisionGlow';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Hero/>
       <Services/>
+      <VisonGlow/>
     </div>
   );
 }

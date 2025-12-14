@@ -26,7 +26,7 @@ export default function Services() {
                             <div
                                 key={index}
                                 className="
-                                        flex flex-col p-3
+                                        flex flex-col p-4
                                         pr-6
                                         rounded-md
                                         transition-all duration-300

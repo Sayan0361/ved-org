@@ -24,7 +24,7 @@ export default function Hero() {
             {/* CTA + Stats Row */}
             <div className="flex flex-col gap-2">
               {/* Start Project Button - Fixed width and smaller size */}
-              <button className="w-[180px] md:w-[200px] px-4 py-2.5 bg-black text-white font-montserrat font-semibold text-sm hover:bg-gray-900 transition-colors duration-200">
+              <button className="w-[180px] md:w-[200px] rounded-md px-4 py-2.5 bg-black text-white font-montserrat font-semibold text-sm hover:bg-gray-900 transition-colors duration-200">
                 Start Project
               </button>
 
