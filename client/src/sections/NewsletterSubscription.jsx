@@ -11,9 +11,9 @@ export default function NewsletterSubscription() {
   };
 
   return (
-    <div className="w-full bg-white py-12 px-4 sm:px-6 lg:px-8">
+    <div className="w-full bg-white py-12 px-4 sm:px-6 lg:px-8 font-[Montserrat]">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-900 mb-6">
           Subscribe to Our Newsletter for Design Insights
         </h2>
         
@@ -39,7 +39,7 @@ export default function NewsletterSubscription() {
           </div>
           <button
             type="submit"
-            className="bg-gray-900 text-white px-8 py-4 font-medium hover:bg-gray-800 transition-colors sm:rounded-r whitespace-nowrap"
+            className="bg-[#1F1F1F] rounded-md text-white px-8 py-4 font-medium hover:bg-gray-800 transition-colors sm:rounded-r whitespace-nowrap"
           >
             Subscribe
           </button>

@@ -1,28 +1,8 @@
 import React, { useState } from 'react';
+import { testimonials } from '../constants/testimonials';
 
 export default function CustomerTestimonials() {
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  const testimonials = [
-    {
-      text: "Luxora UV Marble has completely transformed my home with its premium glossy finish. The colors look rich and modern, making every corner feel brighter",
-      name: "Soumi Paul",
-      location: "Bardhman, Kolkata",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop"
-    },
-    {
-      text: "Installing Luxora UV Marble was one of the best decisions for my interior. The patterns look rich and very elegant. It completely upgraded the feel of my space without much effort.",
-      name: "Sumit Biswas",
-      location: "SEC V, Kolkata",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
-    },
-    {
-      text: "The quality and finish of Luxora UV Marble exceeded my expectations. It's durable, easy to maintain, and adds a luxurious touch to every room.",
-      name: "Priya Sharma",
-      location: "Salt Lake, Kolkata",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop"
-    }
-  ];
 
   const nextTestimonial = () => {
     setCurrentIndex((prev) => (prev + 1) % testimonials.length);
@@ -38,10 +18,10 @@ export default function CustomerTestimonials() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="text-right mb-12 lg:mb-16 px-4">
+        <div className="text-right mb-2 px-4">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-900 font-[Montserrat]">
             What Our Customers Say<br />About Us
           </h2>
@@ -85,7 +65,7 @@ export default function CustomerTestimonials() {
           {/* Overlapping Testimonial Cards */}
           <div className="relative lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:left-1/4 lg:right-0 mt-8 lg:mt-0 flex flex-col gap-6 lg:flex-row lg:gap-8 lg:pr-8">
             {/* First Testimonial Card */}
-            <div className="bg-gray-900 text-white p-8 sm:p-10 rounded-lg shadow-2xl flex flex-col justify-between lg:w-1/2 transition-all duration-500">
+            <div className="bg-[#1F1F1F] text-white p-8 sm:p-10 rounded-lg shadow-2xl flex flex-col justify-between lg:w-1/2 transition-all duration-500">
               {/* Quote Icon */}
               <div className="mb-6">
                 <svg className="w-12 h-12 text-white opacity-80" fill="currentColor" viewBox="0 0 32 32">
@@ -94,7 +74,7 @@ export default function CustomerTestimonials() {
               </div>
 
               {/* Testimonial Text */}
-              <p className="text-base sm:text-lg leading-relaxed mb-8 flex-grow">
+              <p className="text-base sm:text-lg leading-relaxed mb-8 grow">
                 "{visibleTestimonials[0].text}"
               </p>
 
@@ -113,7 +93,7 @@ export default function CustomerTestimonials() {
             </div>
 
             {/* Second Testimonial Card - Hidden on mobile */}
-            <div className="bg-gray-900 text-white p-8 sm:p-10 rounded-lg shadow-2xl flex-col justify-between lg:w-1/2 hidden lg:flex transition-all duration-500">
+            <div className="bg-[#1F1F1F] text-white p-8 sm:p-10 rounded-lg shadow-2xl flex-col justify-between lg:w-1/2 hidden lg:flex transition-all duration-500">
               {/* Quote Icon */}
               <div className="mb-6">
                 <svg className="w-12 h-12 text-white opacity-80" fill="currentColor" viewBox="0 0 32 32">
@@ -122,7 +102,7 @@ export default function CustomerTestimonials() {
               </div>
 
               {/* Testimonial Text */}
-              <p className="text-base sm:text-lg leading-relaxed mb-8 flex-grow">
+              <p className="text-base sm:text-lg leading-relaxed mb-8 grow">
                 "{visibleTestimonials[1].text}"
               </p>
 

@@ -51,7 +51,7 @@ export default function VisionGlow() {
                             <button
                                 className="
                                             mt-8 sm:mt-10 xl:mt-auto
-                                            w-[200px] sm:w-60 xl:w-[275px]
+                                            w-[150px] sm:w-60 xl:w-[275px]
                                             h-14 sm:h-16 xl:h-20
                                             rounded-md
                                             bg-[#111111] text-white
