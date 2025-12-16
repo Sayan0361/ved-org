@@ -26,18 +26,18 @@ export default function VisionGlow() {
 
                             {/* Title */}
                             <h2 className="font-[Montserrat] font-semibold
-                text-[26px] sm:text-[32px] md:text-[40px] xl:text-[48px]
-                leading-tight xl:leading-none
-                text-black mb-6 md:mb-8">
+                                            text-[26px] sm:text-[32px] md:text-[40px] xl:text-[48px]
+                                            leading-tight xl:leading-none
+                                            text-black mb-6 md:mb-8">
                                 Luxora VisionGlow Marble
                             </h2>
 
                             {/* Description */}
                             <p className="font-[Montserrat] font-medium
-                text-[15px] sm:text-[16px]
-                leading-[1.6] xl:leading-[1.65]
-                text-[#545454]
-                max-w-full xl:max-w-[680px]">
+                                        text-[15px] sm:text-[16px]
+                                        leading-[1.6] xl:leading-[1.65]
+                                        text-[#545454]
+                                        max-w-full xl:max-w-[680px]">
                                 Luxora VisionGlow Marble combines a premium UV marble finish with a soft, radiant glow that enhances any interior space.
                                 <br /><br />
                                 It is designed to give a modern, luxurious look while keeping the surface bright and visually appealing.

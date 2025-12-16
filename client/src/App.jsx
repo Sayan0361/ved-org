@@ -6,7 +6,8 @@ import VisonGlow from './sections/VisionGlow';
 import DreamDesign from './sections/DreamDesign';
 import CustomerTestimonials from './sections/CustomerTestimonials';
 import NewsletterSubscription from './sections/NewsletterSubscription';
-import Footer from './sections/Footer';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
