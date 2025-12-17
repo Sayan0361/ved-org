@@ -39,4 +39,19 @@ export const services = [
         content:
             "End-to-end modular kitchen solutions along with complete home interior services.",
     },
+    {
+        title: "Puja Unit Design",
+        content:
+            "Elegant and serene puja unit designs that enhance the spiritual ambiance of your home.",
+    },
+    {
+        title: "Washroom Interior",
+        content:
+            "Washroom renovation/alteration services focusing on modern design and functionality.",
+    },
+    {
+        title: "Commercial Space Renovation",
+        content:
+            "Comprehensive renovation services for commercial spaces to enhance aesthetics and usability.",
+    }
 ];

@@ -18,7 +18,7 @@ function App() {
       <VisonGlow/>
       <DreamDesign/>
       <CustomerTestimonials/>
-      <NewsletterSubscription/>
+      {/* <NewsletterSubscription/> */}
       <Footer/>
     </div>
   );

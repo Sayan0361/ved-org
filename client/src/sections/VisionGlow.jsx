@@ -29,7 +29,7 @@ export default function VisionGlow() {
                                             text-[26px] sm:text-[32px] md:text-[40px] xl:text-[48px]
                                             leading-tight xl:leading-none
                                             text-black mb-6 md:mb-8">
-                                Luxora VisionGlow Marble
+                                Premium UV Marble with Radiant Glow
                             </h2>
 
                             {/* Description */}
@@ -48,7 +48,7 @@ export default function VisionGlow() {
                             </p>
 
                             {/* Button */}
-                            <button
+                            {/* <button
                                 className="
                                             mt-8 sm:mt-10 xl:mt-auto
                                             w-[150px] sm:w-60 xl:w-[275px]
@@ -63,7 +63,7 @@ export default function VisionGlow() {
                                 type="button"
                             >
                                 Learn More
-                            </button>
+                            </button> */}
 
                         </div>
                     </div>
