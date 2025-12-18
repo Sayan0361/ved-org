@@ -18,7 +18,7 @@ export default function CustomerTestimonials() {
   ];
 
   return (
-    <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen font-[Montserrat] py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-right mb-2 px-4">
@@ -80,14 +80,14 @@ export default function CustomerTestimonials() {
 
               {/* Customer Info */}
               <div className="flex items-center gap-4">
-                <img
+                {/* <img
                   src={visibleTestimonials[0].image}
                   alt={visibleTestimonials[0].name}
                   className="w-14 h-14 rounded-full object-cover"
-                />
+                /> */}
                 <div>
                   <h4 className="font-bold text-lg">{visibleTestimonials[0].name}</h4>
-                  <p className="text-gray-400 text-sm">{visibleTestimonials[0].location}</p>
+                  {/* <p className="text-gray-400 text-sm">{visibleTestimonials[0].location}</p> */}
                 </div>
               </div>
             </div>
@@ -108,14 +108,14 @@ export default function CustomerTestimonials() {
 
               {/* Customer Info */}
               <div className="flex items-center gap-4">
-                <img
+                {/* <img
                   src={visibleTestimonials[1].image}
                   alt={visibleTestimonials[1].name}
                   className="w-14 h-14 rounded-full object-cover"
-                />
+                /> */}
                 <div>
                   <h4 className="font-bold text-lg">{visibleTestimonials[1].name}</h4>
-                  <p className="text-gray-400 text-sm">{visibleTestimonials[1].location}</p>
+                  {/* <p className="text-gray-400 text-sm">{visibleTestimonials[1].location}</p> */}
                 </div>
               </div>
             </div>

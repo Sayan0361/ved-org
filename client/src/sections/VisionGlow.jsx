@@ -33,8 +33,8 @@ export default function VisionGlow() {
                             </h2>
 
                             {/* Description */}
-                            <p className="font-[Montserrat] font-medium
-                                        text-[15px] sm:text-[16px]
+                            <p className="font-[Montserrat] text-2xl
+                                        sm:text-[16px]
                                         leading-[1.6] xl:leading-[1.65]
                                         text-[#545454]
                                         max-w-full xl:max-w-[680px]">
